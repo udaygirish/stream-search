@@ -3,9 +3,9 @@
 
     $mysql_server = "localhost";
     $mysql_username = "root";
-    $mysql_password = "root";
+    $mysql_password = "storilabs";
     $database_name = "storilabs";
-    $table_name = "cloud_table";
+    $table_name = "cloud";
 
     $conn = new mysqli($mysql_server, $mysql_username, $mysql_password, $database_name);
 
